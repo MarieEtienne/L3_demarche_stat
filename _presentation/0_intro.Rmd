@@ -1,0 +1,125 @@
+---
+title: "Introduction au cours de démarche statistique"
+author: Marie-Pierre Etienne
+institute: "https://github.com/MarieEtienne/L3_demarche_stat"
+date: "Septembre 2022"
+csl: "../resources/apa-no-doi-no-issue.csl"
+output:
+   xaringan::moon_reader:
+    css: [  'metropolis',  '../courses_tools/resources/mpe_pres.css']
+    lib_dir: libs
+    nature:
+      ratio: 16:10
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: '../courses_tools/resources/collapseoutput.js'
+    includes:
+      after_body: '../courses_tools/resources/insert-logo.html'
+---
+
+
+
+```{r setup, include = FALSE,  eval = TRUE}
+main_dir <-  '..'
+common_img_dir <- file.path(main_dir,'courses_tools','resources', 'common_figs')
+course_img_dir <- file.path(main_dir,'resources', 'figs')
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib('../resources/biblio.bib', check = FALSE)
+with_sol <- TRUE ## in order to control the output
+with_course <- TRUE
+```
+
+name: pres
+# Présentation
+
+--
+
+## Objectifs du cours 
+* Manipuler des données 
+* Visualiser des données
+* Conclure sur les liens entre différentes variables 
+* Préparer des expérimentations
+
+---
+template: pres
+
+## Comment atteindre ces objectifs ?
+
+### Manipuler des des données 
+
+* Utilisation des logiciels R et R studio (plus efficace et plus sur qu'Excel)
+* Nombreuses mises en oeuvre
+* Projet de statistique
+
+
+---
+template: pres
+
+## Comment atteindre ces objectifs ?
+
+### Visualiser des données 
+
+* Utilisation des logiciels R et R studio (plus efficace et plus sur qu'Excel)
+* Nombreux exemples dans différentes situations
+* Méthode de l'Analyse en Composantes Principales (ACP)
+* Projet de statistique
+
+
+---
+template: pres
+
+## Comment atteindre ces objectifs ?
+
+### Conclure sur les liens entre différentes variables 
+
+* Poser un modèle statistique adapté au contexte
+* Déployer une démarche d'analyse pour quantifier les liens entre les variables
+* Utilisation des logiciels R et R studio (plus efficace et plus sur qu'Excel)
+* Nombreuses mises en oeuvre
+* Projet de statistique
+
+---
+template: pres
+
+## Comment atteindre ces objectifs ?
+
+### Préparer des expérimentations
+
+* Prendre en compte les analyses futures au moment de mettre en place une expérimentation
+* Optimiser les expérimentations pour en tirer un maximum d'information 
+* Nombreux exemples
+* **Projet de statistique**
+
+---
+name: orga
+# Organisation du module
+
+* Des Cours/TD 
+* Mise en oeuvre concrète régulière
+* Nécessité d'un ordinateur pour 2 au moins à chaque cours
+
+
+---
+name: eval
+# Evaluation du module
+
+* Des petits quizz réguliers 
+* Un examen sur table 
+* Un projet de statistique accompagné par des permanences
+
+---
+name: contact
+# Ressources
+
+* [Marie-Pierre Etienne](mailto:metienne@agrocampus-ouest.fr)
+
+* [Page principale du module ](MarieEtienne.github.io/Demarche_stat)
+
+* [Page Moodle]()
+
